@@ -1,7 +1,17 @@
 # DemoTodo
 
-1. sdadsa
-2. I have uploaded the POSTMAN project for testing purposes:
+0. Instruction for Running the App:
+   - get the whole project, the script (deploy.sh is responsible for starting up the compose the docker and run it)
+   If you have git bash installed on your machine
+   -- run the following command where the directory of the project is same as the script file
+   -- bash deploy.sh
+
+   If you dont have it installed: cd the directory/project
+   run the below commands: 
+   --docker-compose build
+   --docker-compose up -d
+     
+1. I have uploaded the POSTMAN project for testing purposes:
    Note: I did not do the Sign in with oauth2 (github,google,facebook), unable to integrate it with this token generation.
 
    
@@ -17,7 +27,11 @@
    Third -
    Just run each test to see the results in the response. :)
 
-4. 
+2. The build is included in the run.
+   
+3. Authentication Methods:
+   The tokenGeneration is from a video I followed which is https://www.youtube.com/watch?v=KxqlJblhzfI
+   
 
    
 
